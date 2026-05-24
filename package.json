@@ -1,0 +1,23 @@
+{
+  "name": "thank-you-email",
+  "version": "1.0.0",
+  "description": "Create README.md file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mjml index.mjml -o index.html",
+    "watch": "nodemon --ext mjml --exec \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozahedul/thank-you-email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mozahedul/thank-you-email/issues"
+  },
+  "homepage": "https://github.com/Mozahedul/thank-you-email#readme"
+}

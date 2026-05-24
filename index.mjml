@@ -1,0 +1,197 @@
+<mjml>
+  <mj-head>
+    <!-- Email Subject Preview -->
+    <mj-preview>
+      Limited-time offer on handcrafted ceramic mugs. Shop now before it's gone.
+    </mj-preview>
+
+    <!-- Breakpoint -->
+    <mj-breakpoint width="380px" />
+
+    <!-- Email Title -->
+    <mj-title>Obsidian Ceramic Mug – Special Offer</mj-title>
+
+    <!-- Google Font -->
+    <mj-font
+      name="Nunito"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    />
+
+    <!--
+    ================================================
+      COLOR SYSTEM
+    ================================================
+
+      LIGHT MODE
+      ----------
+      Email outer bg        → #f4f4f4
+      Section bg            → #ffffff
+      Card bg               → #f8f8f8
+      Border                → #e8e8e8
+      Heading               → #111111
+      Subheading            → #444444
+      Body text             → #666666
+      Muted                 → #888888
+      Footer text           → #999999
+
+      DARK MODE
+      ----------
+      Email outer bg        → #111111
+      Section bg            → #1a1a1a
+      Card bg               → #222222
+      Border                → #333333
+      Heading               → #f0f0f0
+      Subheading            → #cccccc
+      Body text             → #aaaaaa
+      Muted                 → #888888
+      Footer text           → #666666
+
+      ACCENT (both modes)
+      -------------------
+      Primary green         → #1a5c38
+      Amber                 → #c97d2e
+
+      DIVIDERS
+      --------
+      Light                 → #e8e8e8  (dark: #333333)
+      Strong                → #cccccc  (dark: #444444)
+    ================================================
+    -->
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <!-- Entire Email -->
+      <mj-all
+        font-family="'Nunito', Georgia, 'Times New Roman', Arial, serif"
+        color="#444444"
+        line-height="1.5"
+      />
+
+      <!-- Body -->
+      <mj-body background-color="#f4f4f4" />
+
+      <!-- Sections -->
+      <mj-section padding="0" background-color="#ffffff" />
+
+      <!-- Columns -->
+      <mj-column padding="0" />
+
+      <!-- Text -->
+      <mj-text
+        padding="0"
+        font-size="16px"
+        line-height="24px"
+        color="#444444"
+      />
+
+      <!-- Buttons — primary default -->
+      <mj-button
+        border-radius="4px"
+        font-size="14px"
+        font-weight="600"
+        inner-padding="14px 28px"
+        padding="0"
+        background-color="#111111"
+        color="#ffffff"
+      />
+
+      <!-- Images -->
+      <mj-image padding="0" border="0" fluid-on-mobile="true" />
+
+      <!-- Divider -->
+      <mj-divider
+        border-style="solid"
+        border-color="#e8e8e8"
+        border-width="1px"
+        width="100%"
+        align="left"
+        padding="15px 0"
+      />
+    </mj-attributes>
+
+    <!-- STYLE BLOCK 1: Inlined regular styles -->
+    <mj-style inline="inline">
+      a {
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        border: 0;
+        outline: none;
+        text-decoration: none;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    </mj-style>
+
+    <!-- Raw meta tags -->
+    <mj-raw>
+      <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible"
+      content="IE=edge" /> <meta name="viewport" content="width=device-width,
+      initial-scale=1.0" /> <meta name="format-detection" content="telephone=no,
+      date=no, address=no, email=no, url=no" /> <meta
+      name="x-apple-disable-message-reformatting" /> <meta
+      http-equiv="List-Unsubscribe"
+      content="<mailto:unsubscribe@example.com?subject=unsubscribe>,
+      <https://example.com/unsubscribe>" />
+    </mj-raw>
+  </mj-head>
+
+  <mj-body width="480px" background-color="#ffffff">
+    <!-- ============================================================ -->
+    <!-- LOGO                                                          -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#ffffff">
+      <mj-column vertical-align="top">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778770594/email-portfolio/welcome-email-taskly/images/taskly-logo_n2tzl3.png"
+          alt="Ultimate Technology Limited"
+          href="https://taqwaitagency.com"
+          padding="16px 0"
+          width="80px"
+        />
+
+        <!-- Order Summary Title -->
+
+        <mj-text
+          font-weight="800"
+          align="center"
+          font-size="32px"
+          color="#444444"
+          text-transform="capitalize"
+          line-height="1.3"
+          padding="15px 0"
+        >
+          <span>Thank you</span><br />
+          <span>for your support!</span>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="1.5"
+          font-weight="500"
+          align="center"
+        >
+          <span>We're grateful to have</span><br />
+          <span>customers like you</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 0px">
+      <mj-column>
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779612662/general-icons/heart_cvovwp.png"
+          alt="Heart icon"
+          width="60px"
+          padding="15px 0"
+        />
+        <mj-text font-size="15px" align="center"
+          >It means the world to us.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
